@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: bisque;
+    padding: 20px;
+}
+
+.container {
+    max-width: 200px;
+    margin: auto;
+    background: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.imput-container {
+    display: flex;
+    gap: 10px;
+}
+
+input[type="text"] {
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 16px;
+}
+
+botton {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    background: #f0f0f0;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+li.completada {
+    text-decoration: line-through;
+    color: #888;
+    background-color: #d3f9d8;
+}
+
